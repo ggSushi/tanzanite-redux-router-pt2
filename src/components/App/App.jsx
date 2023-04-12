@@ -3,6 +3,7 @@ import StepOne from '../Steps/StepOne.jsx';
 import StepTwo from '../Steps/StepTwo.jsx';
 import StepThree from '../Steps/StepThree.jsx';
 import StepFour from '../Steps/StepFour.jsx';
+import Review from '../Steps/Review.jsx';
 
 function App () {
   
@@ -24,6 +25,9 @@ function App () {
         </Route>
         <Route exect path="/step-4">
           <StepFour />
+        </Route>
+        <Route exact path="/review">
+          <Review />
         </Route>
       </Router>
     </div>
