@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 
 function StepFour() {
   const dispatch = useDispatch();

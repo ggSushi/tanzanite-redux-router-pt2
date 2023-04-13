@@ -4,6 +4,7 @@ import StepTwo from '../Steps/StepTwo.jsx';
 import StepThree from '../Steps/StepThree.jsx';
 import StepFour from '../Steps/StepFour.jsx';
 import Review from '../Steps/Review.jsx';
+import ActivityList from '../ActivityList/ActivityList.jsx';
 
 function App () {
   
@@ -28,6 +29,9 @@ function App () {
         </Route>
         <Route exact path="/review">
           <Review />
+        </Route>
+        <Route exact path="/activity-list">
+          <ActivityList />
         </Route>
       </Router>
     </div>
